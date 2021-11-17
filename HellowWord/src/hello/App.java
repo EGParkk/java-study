@@ -1,14 +1,14 @@
-package hello; // ÆÐÅ°Áö Çï·Î¿ì
+package hello; // íŒ¨í‚¤ì§€ í—¬ë¡œìš°
 
-public class App { // Å¬·¡½º App ¸¸µé±â
+public class App { // í´ëž˜ìŠ¤ App ë§Œë“¤ê¸°
 
 	public static void main(String[] args) {
-		// ¸ÞÀÎ ¸Þ¼Òµå ¿¡¼­ ÇÁ·Î±×·¥ ½ÃÀÛ
-		// ÁÖ¼® ´ÜÃà±â CTRL+/
-		System.out.println("Çï·Î¿ì");
-		// ½ÇÇà ¹æ¹ý ÀÌÅ¬»ó´Ü ¢º, ¿ÞÂÊ ¸¶¿ì½º Run as ÀÚ¹Ù ¾ÖÇÃ¸®ÄÉÀÌ¼Ç
-		// ¿ÞÂÊÆí Å¬·¡½ºÆÄÀÏÀ» ¼±ÅÃÇÏ°í ¢º, ¿À¸¥ÂÊ ¸¶¿ì½º Run as ÀÚ¹Ù ¾ÖÇÃ¸®ÄÉÀÌ¼Ç
-		// CTRL + F11¢º
+		// ë©”ì¸ ë©”ì†Œë“œ ì—ì„œ í”„ë¡œê·¸ëž¨ ì‹œìž‘
+		// ì£¼ì„ ë‹¨ì¶•ê¸° CTRL+/
+		System.out.println("í—¬ë¡œìš°");
+		// ì‹¤í–‰ ë°©ë²• ì´í´ìƒë‹¨ â–¶, ì™¼ìª½ ë§ˆìš°ìŠ¤ Run as ìžë°” ì• í”Œë¦¬ì¼€ì´ì…˜
+		// ì™¼ìª½íŽ¸ í´ëž˜ìŠ¤íŒŒì¼ì„ ì„ íƒí•˜ê³  â–¶, ì˜¤ë¥¸ìª½ ë§ˆìš°ìŠ¤ Run as ìžë°” ì• í”Œë¦¬ì¼€ì´ì…˜
+		// CTRL + F11â–¶
 	}
 
 }

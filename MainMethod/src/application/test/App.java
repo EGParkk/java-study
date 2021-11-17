@@ -3,10 +3,10 @@ package application.test;
 public class App {
 
 	public static void main(String[] args) {
-		// ¸ŞÀÎ ¸Ş¼Òµå
-		System.out.println("¾È³çÇÏ¼¼¿ä");
-		System.out.println("»õ ÀÚ¹Ù ÇÁ·Î±×·¥À»");
-		System.out.println("½ÇÇà ÇÕ´Ï´Ù.");
+		// ë©”ì¸ ë©”ì†Œë“œ
+		System.out.println("ì•ˆë…•í•˜ì„¸ìš”");
+		System.out.println("ìƒˆ ìë°” í”„ë¡œê·¸ë¨ì„");
+		System.out.println("ì‹¤í–‰ í•©ë‹ˆë‹¤.");
 	}
 
 }
