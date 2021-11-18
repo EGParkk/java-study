@@ -9,7 +9,6 @@ public class App { // 클래스 App 만들기
 		// 실행 방법 이클상단 ▶, 왼쪽 마우스 Run as 자바 애플리케이션
 		// 왼쪽편 클래스파일을 선택하고 ▶, 오른쪽 마우스 Run as 자바 애플리케이션
 		// CTRL + F11▶
-		System.out.println("헬로우");
 	}
 
 }
