@@ -12,6 +12,7 @@ public class EX1 {
 			System.out.print("옵션을 선택 > ");
 			meun = scanner.nextInt();
 			
+			/*
 			if(meun == 1) {
 				System.out.println("'헬로우'");
 			}
@@ -26,6 +27,25 @@ public class EX1 {
 			}
 			else {
 				System.out.println("잘못된 옵션입니다.");
+			}
+			*/
+			
+			switch(meun) {
+			case 1:
+				System.out.println("'헬로우'");
+				break;
+			case 2:
+				System.out.println("'안녕 ?'");
+				break;
+			case 3:
+				System.out.println("프로그램 종료");
+				break;
+			case 10000:
+				System.out.println("이스터에그 발견!");
+				break;
+			default:
+				System.out.println("잘못된 옵션입니다.");
+				break;
 			}
 		}
 		scanner.close();
