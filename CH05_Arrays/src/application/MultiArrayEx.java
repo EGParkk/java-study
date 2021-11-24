@@ -12,12 +12,12 @@ public class MultiArrayEx {
 		
 		int total = 0;
 		
-		for(int i = 0; i < value.length; i++) {
-			for(int j = 0; j < value[i].length; j++) {
+		for (int i = 0; i < value.length; i++) {
+			for (int j = 0; j < value[i].length; j++) {
 				total += value[i][j];
 			}
 		}
-		
+
 		System.out.println("총 합은 : " + total);
 	}
 
