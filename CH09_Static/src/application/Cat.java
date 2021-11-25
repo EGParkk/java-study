@@ -12,7 +12,7 @@ public class Cat {
 	public Cat(String name) {
 		this.name = name;
 		count++;
-		id = count;
+		id = count; // 객체가 만들어질때마다 카운트 증가
 	}
 	
 	public static int getCount() {
