@@ -9,7 +9,7 @@ public class App {
 		
 		for(GameObject ob : objs) {
 			System.out.println(ob);
-			ob.describe();
+			ob.describe(); // 구현된 추상 메소드
 		}
 	}
 
