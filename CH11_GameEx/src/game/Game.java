@@ -15,7 +15,7 @@ public class Game {
 	Scanner scanner = new Scanner(System.in);
 	
 	public void run() {
-		System.out.println("삼세판 게임 시작 ...");
+		System.out.println("2판3선 게임 시작 ...");
 		int wins = 0;
 		for(int i = 1; i <= 3; i++) {
 			// 유저의 선택
@@ -42,7 +42,7 @@ public class Game {
 		}
 		// 3번 가위바위보 끝난 후 총점 wins로 결과를 출력한다.
 		System.out.println();
-		System.out.print("삼세판 결과는 : ");
+		System.out.print("2판3선 결과는 : ");
 		if (wins > 0) {
 			System.out.println("당신의 승리!🚀");
 		} else if (wins < 0) {
