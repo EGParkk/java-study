@@ -1,4 +1,4 @@
-package interface_inheritance;
+package interface_Inheritance;
 
 public class Machine implements DefaultRunnable {
 	@Override

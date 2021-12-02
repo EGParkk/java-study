@@ -1,4 +1,4 @@
-package interface_inheritance;
+package interface_Inheritance;
 
 // 인터페이스 끼리 상속가능
 public interface DefaultRunnable extends Runnable {
