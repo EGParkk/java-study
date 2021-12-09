@@ -1,12 +1,12 @@
 package hashset;
 
-import java.util.LinkedHashSet;
+import java.util.HashSet;
 
-public class App {
+public class Linked_HashSet {
 
 	public static void main(String[] args) {
-		// 링크드헤시셋 타입은 중복이 안되고 순서대로 출력됨
-		LinkedHashSet<String> fruits = new LinkedHashSet<>();
+		// 셋 타입은 중복이 안되고 순서가 없음
+		HashSet<String> fruits = new HashSet<>();
 		
 		fruits.add("사과");
 		fruits.add("바나나");
