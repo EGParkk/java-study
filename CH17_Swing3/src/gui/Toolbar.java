@@ -37,11 +37,6 @@ public class Toolbar extends JToolBar {
 
 		// 버튼에 이벤트를 연결('클릭'이벤트)
 		redButton.addActionListener(e -> mainPanel.setBackground(Color.RED));
-		blueButton.addActionListener(new ActionListener() {
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				mainPanel.setBackground(Color.BLUE);
-			}
-		});
+		blueButton.addActionListener(e -> mainPanel.setBackground(Color.BLUE));
 	}
 }
